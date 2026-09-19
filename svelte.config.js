@@ -1,5 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 
+const deployBasePath = process.env.DEPLOY_BASE_PATH ?? '';
+
 const config = {
   kit: {
     adapter: adapter({
@@ -8,7 +10,7 @@ const config = {
       fallback: 'index.html'
     }),
     paths: {
-      base: process.env.NODE_ENV === 'production' ? '/dpodium-website' : ''
+      base: deployBasePath
     }
   }
 };
