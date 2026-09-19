@@ -1,8 +1,12 @@
+<script lang="ts">
+	import { base } from '$app/paths';
+</script>
+
 <section class="relative min-h-screen overflow-hidden bg-dpodium-ink">
 	<!-- Venue image -->
 	<div class="absolute inset-0">
 		<img
-			src="/images/venue/exterior.jpg"
+			src="{base}/images/venue/exterior.jpg"
 			alt="D'Podium International Event Centre"
 			class="h-full w-full object-cover"
 		/>

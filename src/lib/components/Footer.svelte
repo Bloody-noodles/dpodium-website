@@ -1,13 +1,17 @@
+<script lang="ts">
+  import { base } from '$app/paths';
+</script>
+
 <footer class="bg-dpodium-ink px-6 pb-8 pt-16 lg:px-10">
   <div class="mx-auto max-w-7xl">
     <div class="grid gap-12 border-b border-white/10 pb-14 lg:grid-cols-[1.3fr_0.7fr_0.7fr_1fr]">
       <div>
-        <a href="/" class="inline-flex items-center">
+        <a href="{base}/" class="inline-flex items-center">
           <div
             class="flex h-14 w-36 items-center overflow-hidden rounded-xl bg-white px-3 py-2"
           >
             <img
-              src="/images/brand/logo.png"
+              src="{base}/images/brand/logo.png"
               alt="D'Podium International Event Centre"
               class="h-full w-full object-contain"
             />

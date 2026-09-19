@@ -1,3 +1,7 @@
+<script lang="ts">
+  import { base } from '$app/paths';
+</script>
+
 <section id="gallery" class="bg-white px-6 py-24 lg:px-10 lg:py-32">
   <div class="mx-auto max-w-7xl">
     <div class="flex flex-col justify-between gap-6 md:flex-row md:items-end">
@@ -26,7 +30,7 @@
       <!-- Large image -->
       <div class="group relative overflow-hidden rounded-[2rem] md:col-span-7 md:row-span-2">
         <img
-          src="/images/venue/exterior.jpg"
+          src="{base}/images/venue/exterior.jpg"
           alt="D'Podium International Event Centre"
           class="h-full w-full object-cover transition duration-700 group-hover:scale-105"
         />
@@ -47,7 +51,7 @@
       <!-- Top right -->
       <div class="group relative overflow-hidden rounded-[2rem] md:col-span-5">
         <img
-          src="/images/events/wedding.jpg"
+          src="{base}/images/events/wedding.jpg"
           alt="Wedding celebration at D'Podium"
           class="h-full w-full object-cover transition duration-700 group-hover:scale-105"
         />
@@ -65,7 +69,7 @@
       <div class="grid gap-4 md:col-span-5 md:grid-cols-2">
         <div class="group relative overflow-hidden rounded-[2rem]">
           <img
-            src="/images/events/corporate.jpg"
+            src="{base}/images/events/corporate.jpg"
             alt="Corporate event"
             class="h-full w-full object-cover transition duration-700 group-hover:scale-105"
           />
@@ -81,7 +85,7 @@
 
         <div class="group relative overflow-hidden rounded-[2rem]">
           <img
-            src="/images/events/concert.jpg"
+            src="{base}/images/events/concert.jpg"
             alt="Live event"
             class="h-full w-full object-cover transition duration-700 group-hover:scale-105"
           />

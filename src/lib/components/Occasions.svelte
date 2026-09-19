@@ -1,3 +1,7 @@
+<script lang="ts">
+  import { base } from '$app/paths';
+</script>
+
 <section id="occasions" class="bg-white px-6 py-24 lg:px-10 lg:py-32">
   <div class="mx-auto max-w-7xl">
     <div class="flex flex-col justify-between gap-6 lg:flex-row lg:items-end">
@@ -24,7 +28,7 @@
       <!-- Wedding -->
       <article class="group relative min-h-[430px] overflow-hidden rounded-[2rem] bg-dpodium-ink">
         <img
-          src="/images/events/wedding.jpg"
+          src="{base}/images/events/wedding.jpg"
           alt="Wedding event"
           class="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-105"
         />
@@ -47,7 +51,7 @@
       <!-- Corporate -->
       <article class="group relative min-h-[430px] overflow-hidden rounded-[2rem] bg-dpodium-ink">
         <img
-          src="/images/events/corporate.jpg"
+          src="{base}/images/events/corporate.jpg"
           alt="Corporate event"
           class="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-105"
         />
@@ -70,7 +74,7 @@
       <!-- Concert -->
       <article class="group relative min-h-[430px] overflow-hidden rounded-[2rem] bg-dpodium-ink">
         <img
-          src="/images/events/concert.jpg"
+          src="{base}/images/events/concert.jpg"
           alt="Concert and live event"
           class="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-105"
         />
@@ -93,7 +97,7 @@
       <!-- Celebrations -->
       <article class="group relative min-h-[430px] overflow-hidden rounded-[2rem] bg-dpodium-ink">
         <img
-          src="/images/events/social.jpg"
+          src="{base}/images/events/social.jpg"
           alt="Celebration event"
           class="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-105"
         />

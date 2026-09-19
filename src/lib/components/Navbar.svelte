@@ -1,15 +1,17 @@
 <script lang="ts">
+  import { base } from '$app/paths';
+
   let menuOpen = false;
 </script>
 
 <header class="absolute left-0 top-0 z-50 w-full">
   <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-10">
-    <a href="/" class="flex items-center gap-3">
+    <a href="{base}/" class="flex items-center gap-3">
       <div
         class="flex h-12 w-32 items-center overflow-hidden rounded-xl bg-white px-3 py-2 shadow-lg"
       >
         <img
-          src="/images/brand/logo.png"
+          src="{base}/images/brand/logo.png"
           alt="D'Podium International Event Centre"
           class="h-full w-full object-contain"
         />

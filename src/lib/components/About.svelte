@@ -1,9 +1,13 @@
+<script lang="ts">
+	import { base } from '$app/paths';
+</script>
+
 <section id="about" class="overflow-hidden bg-dpodium-cream px-6 py-24 lg:px-10 lg:py-32">
 	<div class="mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
 		<div class="relative">
 			<div class="overflow-hidden rounded-[2rem]">
 				<img
-					src="/images/venue/main-hall.jpg"
+					src="{base}/images/venue/main-hall.jpg"
 					alt="D'Podium event space"
 					class="h-[520px] w-full object-cover transition duration-700 hover:scale-105"
 				/>
